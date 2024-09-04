@@ -1,0 +1,27 @@
+[irc.libera]
+Server="irc.libera.chat:6697"
+Nick="DCGLUG[Bridge]"
+NickServNick="DCGLUG[Bridge]"
+UseTLS=true
+UseSASL=false
+SkipTLSVerify=true
+Label="irc"
+RemoteNickFormat="[{LABEL}] <{NICK}> "
+
+[matrix.matrix]
+Server="https://matrix.org"
+Login="dcglug-bridge-bot"
+RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+NoHomeServerSuffix=false
+
+[[gateway]]
+name="dcglug"
+enable=true
+
+[[gateway.inout]]
+account="irc.libera"
+channel="#DCGLUG"
+
+[[gateway.inout]]
+account="matrix.matrix"
+channel="!STzYxbWvWcLbCrgqgn:matrix.org"
