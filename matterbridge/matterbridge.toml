@@ -6,7 +6,7 @@ UseTLS=true
 UseSASL=false
 SkipTLSVerify=true
 Label="irc"
-RemoteNickFormat="[{LABEL}] <{NICK}> "
+RemoteNickFormat="[{LABEL}] <{NOPINGNICK}> "
 
 [matrix.matrix]
 Server="https://matrix.org"
