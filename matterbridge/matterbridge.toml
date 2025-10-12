@@ -11,7 +11,8 @@ RemoteNickFormat="[{LABEL}] <{NICK}> "
 [matrix.matrix]
 Server="https://matrix.org"
 Login="dcglug-bridge-bot"
-RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+Label="matrix"
+RemoteNickFormat="[{LABEL}] <{NOPINGNICK}> "
 NoHomeServerSuffix=false
 
 [[gateway]]
