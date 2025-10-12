@@ -17,6 +17,7 @@ Label="matrix"
 RemoteNickFormat="[{LABEL}] <{NOPINGNICK}> "
 NoHomeServerSuffix=false
 PrefixMessagesWithNick=true
+ReplaceNicks = [["Peri", "dwd"]]
 
 [[gateway]]
 name="dcglug"
