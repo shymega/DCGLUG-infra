@@ -8,6 +8,7 @@ SkipTLSVerify=true
 Label="irc"
 RemoteNickFormat="[{LABEL}] <{NOPINGNICK}> "
 EditDisable=true
+MessageSplit=true
 
 [matrix.matrix]
 Server="https://matrix.org"
